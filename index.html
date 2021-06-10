@@ -1,0 +1,422 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Wedding</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/slick.css" rel="stylesheet">
+    <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="shortcut icon" type="image/x-icon" href="images/tabIcon.png" >
+</head>
+<body>
+    <button type="button" class="back-to-top-btn">
+        <a href="#scroll-top"><i class="fas fa-chevron-up"></i></a>
+    </button>
+    <!--HEADER START-->
+    <div id="scroll-top"></div>
+    <header>
+        <div class="top-header">
+            <div class="start">
+                <p>BRIDESMART WEDDING AUSTRALIA</p>
+            </div>
+            <div class="end">
+                <a href="#">
+                    <i class="fas fa-key"></i>
+                    Login
+                </a>
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                    Sign Up
+                </a>
+            </div>
+        </div>
+        <div class="bottom-header">
+            <div class="logo">
+                <a href="index.html">
+                    <img src="images/logoBlack.png" alt="log">
+                </a>
+            </div>
+            <nav>
+                <ul>
+                    <button class="exit-menu">
+                        <i class="fas fa-times"></i>
+                    </button>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Browse Stores</a></li>
+                    <li><a href="#">Join Directory</a></li>
+                    <li><a href="#">Weddings</a></li>
+                    <li><a href="#">Advertise</a></li>
+                </ul>
+            </nav>
+            <div class="menu-btn-wrap">
+                <button class="open-menu" type="button"><i class="fas fa-align-right"></i></button>
+            </div>
+        </div>
+    </header>
+    <!--HEADER END-->
+
+    <!--BANNER START-->
+    <section class="banner">
+        <div class="banner-overlay"></div>
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="banner-text">
+                        <h1>Your perfect day made easy</h1>
+                        <p>Choose from 5000+ local wedding venues, services and providers</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="search-form">
+            <form>
+                <div class="select-wrap">
+                    <select name="location" id="location">
+                        <option value="" selected disabled>Location</option>
+                        <option value="Australian-Capital-Territory9158322">Australian Capital Territory</option>
+                        <option value="New-South-Wales7589385">New South Wales</option>
+                        <option value="Northern-Territory867110">Northern Territory</option>
+                        <option value="Queensland9531110">Queensland</option>
+                        <option value="Skype65564">Skype</option>
+                        <option value="South-Australia3736974">South Australia</option>
+                        <option value="Tasmania639417">Tasmania</option>
+                        <option value="Victoria9203277">Victoria</option>
+                        <option value="Western-Australia4313504">Western Australia</option>
+                    </select>
+                </div>
+                <div class="select-wrap">
+                    <select name="regions" id="regions">
+                        <option value="" selected disabled>Region</option>
+                        <option value="Australian-Capital-Territory9158322">Australian Capital Territory</option>
+                        <option value="New-South-Wales7589385">New South Wales</option>
+                        <option value="Northern-Territory867110">Northern Territory</option>
+                        <option value="Queensland9531110">Queensland</option>
+                        <option value="Skype65564">Skype</option>
+                        <option value="South-Australia3736974">South Australia</option>
+                        <option value="Tasmania639417">Tasmania</option>
+                        <option value="Victoria9203277">Victoria</option>
+                        <option value="Western-Australia4313504">Western Australia</option>
+                    </select>
+                </div>
+                <div class="select-wrap">
+                    <select name="sub_category_drop">
+                        <option>Category</option>
+                        <option value="ad-accommodation">Accommodation</option>
+                        <option value="class-bombonnieres">Bombonnieres</option>
+                        <option value="ad-bridesmaid-dress">Bridesmaid Dresses</option>
+                        <option value="ad-cakes">Cakes</option>
+                        <option value="ad-cars-limous">Cars and Limousines</option>
+                        <option value="class-catering">Catering</option>
+                        <option value="class-celebrants">Celebrants</option>
+                        <option value="class-dancing-lessons">Dancing Lessons</option>
+                        <option value="class-decor-hire">Décor and Hire</option>
+                        <option value="ad-designer-wed-dresses">Designer Wedding Dresses</option>
+                        <option value="class-fitness-coach">Fitness Coach</option>
+                        <option value="ad-flower-girl-dress">Flower Girl Dresses</option>
+                        <option value="class-flowers">Flowers</option>
+                        <option value="ad-formal-wear">Formal Wear</option>
+                        <option value="class-makeup-artist">Hair beauty &amp; Makeup</option>
+                        <option value="class-hens-bucks">Hens &amp; Bucks</option>
+                        <option value="class-honeymoons">Honeymoons</option>
+                        <option value="class-invitation-stationary">Invitation &amp; Stationary</option>
+                        <option value="ad-jewelry">Jewelry</option>
+                        <option value="class-music-dj">Music DJ</option>
+                        <option value="class-photobooth">Photobooth</option>
+                        <option value="class-video-photo">Photographer/ Videographer</option>
+                        <option value="class-reception-venue">Reception Venues</option>
+                        <option value="ad-smart-wed-dresses">Smart Wedding Dresses</option>
+                        <option value="ad-wed-lingerie">Wedding Lingerie</option>
+                        <option value="class-wed-packages">Wedding Packages</option>
+                        <option value="ad-wed-shoes">Wedding Shoes</option>
+                        <option value="class-travel-agent">Wedding Specialist Travel Agent</option>
+                        <option value="class-wedding-venues">Wedding Venues</option>
+                    </select>
+                </div>
+                <button type="submit" class="btn buttonSubmit">Search</button>
+            </form>
+        </div>
+    </section>
+    <!--BANNER END-->
+
+    <!--TOP PICKS SECTION START-->
+    <section class="top-picks">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-head">
+                        <h2>Top Picks of the Day</h2>
+                        <p>Explore Top Picks</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row after-section-head mt-3">
+                <div class="col-12 mt-md-5 mt-4">
+                    <div class="global-home-carousels top-picks-carousel">
+                        <div class="pick-card">
+                            <div class="pick-card-image">
+                                <a href="#">
+                                    <div class="img-overlay"></div>
+                                    <img src="images/flowers.jpg" alt="flowers">
+                                </a>
+                            </div>
+                            <a href="#"><h3>Wedding Flowers</h3></a>
+                            <p>100$</p>
+                        </div>
+                        <div class="pick-card">
+                            <div class="pick-card-image">
+                                <a href="#">
+                                    <div class="img-overlay"></div>
+                                    <img src="images/dress.png" alt="dress">
+                                </a>
+                            </div>
+                            <a href="#"><h3>Wedding Dresses</h3></a>
+                            <p>250$</p>
+                        </div>
+                        <div class="pick-card">
+                            <div class="pick-card-image">
+                                <a href="#">
+                                    <div class="img-overlay"></div>
+                                    <img src="images/suits.jpg" alt="suits">
+                                </a>
+                            </div>
+                            <a href="#"><h3>Man Suits</h3></a>
+                            <p>250$</p>
+                        </div>
+                        <div class="pick-card">
+                            <div class="pick-card-image">
+                                <a href="#">
+                                    <div class="img-overlay"></div>
+                                    <img src="images/rings.jpg" alt="rings">
+                                </a>
+                            </div>
+                            <a href="#"><h3>Wedding Rings</h3></a>
+                            <p>150$</p>
+                        </div>
+                        <div class="pick-card">
+                            <div class="pick-card-image">
+                                <a href="#">
+                                    <div class="img-overlay"></div>
+                                    <img src="images/decoration.jpg" alt="decoration">
+                                </a>
+                            </div>
+                            <a href="#"><h3>Wedding Decoration</h3></a>
+                            <p>350$</p>
+                        </div>
+                        <div class="pick-card">
+                            <div class="pick-card-image">
+                                <a href="#">
+                                    <div class="img-overlay"></div>
+                                    <img src="images/restaurant.jpg" alt="restaurant">
+                                </a>
+                            </div>
+                            <a href="#"><h3>Restaurants</h3></a>
+                            <p>850$</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--TOP PICKS SECTION END-->
+
+    <!--ADVERTISE WITH US START-->
+    <section class="advertise-with-us">
+        <div class="container">
+            <div class="row mt-5">
+                <div class="col-12">
+                    <div class="section-head">
+                        <h2>Advertise With Us</h2>
+                        <p>Join to Our Community</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="main-advertise">
+            <div class="main-advertise-overlay"></div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 mt-5">
+                        <div class="global-home-carousels advert-with-us-carousel">                        
+                            <div class="advert-card">
+                                <div class="top">
+                                    <p class="advert-plan">Social (Free)</p>
+                                    <p class="plan-price">$0<span>/month</span></p>
+                                    <p class="key-features">Key Features:</p>
+                                    <ul>
+                                        <li><i class="fas fa-check"></i><p>Business listing</p></li>
+                                        <li><i class="fas fa-check"></i><p>Share your expertise via blogs</p></li>
+                                    </ul>
+                                </div>
+                                <button type="button">JOIN NOW</button>
+                            </div>
+                            <div class="advert-card">
+                                <div class="top">
+                                    <p class="advert-plan">Standard</p>
+                                    <p class="plan-price">$5.99<span>/month</span></p>
+                                    <p class="key-features">Key Features:</p>
+                                    <ul>
+                                        <li><i class="fas fa-check"></i><p>Promote 2 products</p></li>
+                                        <li><i class="fas fa-check"></i><p>Added audited reviews</p></li>
+                                        <li><i class="fas fa-check"></i><p>Added into key search</p></li>
+                                    </ul>
+                                </div>
+                                <button type="button">JOIN NOW</button>
+                            </div>
+                            <div class="advert-card">
+                                <div class="top">
+                                    <p class="advert-plan">Premium</p>
+                                    <p class="plan-price">$15.99<span>/month</span></p>
+                                    <p class="key-features">Key Features:</p>
+                                    <ul>
+                                        <li><i class="fas fa-check"></i><p>Add video & blogs to your listing</p></li>
+                                        <li><i class="fas fa-check"></i><p>Promote up to 2 of your products or services monthly</p></li>
+                                    </ul>
+                                </div>
+                                <button type="button">JOIN NOW</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--ADVERTISE WITH US END-->
+
+    <!--GET START START-->
+    <section class="get-start">
+        <div class="container">
+            <div class="row mb-4 justify-content-center align-items-center">
+                <div class="col-lg-5 col-md-6 mt-5 mr-lg-3">
+                    <div class="logo">
+                        <img class="img-fluid" src="images/logoGray.png" alt="logo">
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 mt-lg-5 mt-4 ml-lg-3">
+                    <div class="get-start-text">
+                        <h3>Bridesmart Weddings Australia</h3>
+                        <p>Set up your own store and start listing your products and services here</p>
+                        <a href="#">GET START</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--GET START END-->
+
+    <!--LATEST BLOG START-->
+    <section class="latest-blog">
+        <div class="container">
+            <div class="row">
+                <div class="col-12">
+                    <div class="section-head">
+                        <h2>Our Latest Blog</h2>
+                        <p>Learn About Weddings</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row after-section-head mt-3">
+                <div class="col-12 mt-md-5 mt-4">
+                    <div class="global-home-carousels advert-with-us-carousel">
+                        <div class="latest-blog-card">
+                            <div class="latest-blog-card-image">
+                                <a href="#">
+                                    <div class="img-overlay"></div>
+                                    <img src="images/decoration.jpg" alt="decoration">
+                                </a>
+                            </div>
+                            <a class="head" href="#"><h3>What is important about decoration?</h3></a>
+                            <a class="read-me" href="#">READ ME</a>
+                        </div>
+                        <div class="latest-blog-card">
+                            <div class="latest-blog-card-image">
+                                <a href="#">
+                                    <div class="img-overlay"></div>
+                                    <img src="images/restaurant.jpg" alt="restaurant">
+                                </a>
+                            </div>
+                            <a class="head" href="#"><h3>How to choose the best restaurant?</h3></a>
+                            <a class="read-me" href="#">READ ME</a>
+                        </div>
+                        <div class="latest-blog-card">
+                            <div class="latest-blog-card-image">
+                                <a href="#">
+                                    <div class="img-overlay"></div>
+                                    <img src="images/dress.png" alt="dress">
+                                </a>
+                            </div>
+                            <a class="head" href="#"><h3>How to choose modern wedding dress?</h3></a>
+                            <a class="read-me" href="#">READ ME</a>
+                        </div>
+                    </div>                        
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--LATEST BLOG END-->
+
+    <!--FOOTER START-->
+        <footer>
+            <div class="footer-top">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4 col-sm-6 mt-5">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img class="img-fluid" src="images/logoGray.png" alt="logo">
+                                </a>
+                            </div>                            
+                        </div>
+                        <div class="col-lg-4 col-sm-6 mt-5">
+                            <div class="footer-part">
+                                <h3>Useful Links</h3>
+                                <ul>
+                                    <li>
+                                        <a href="#">- Privacy Policy</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">- About Us</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">- Join Directory</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">- Browse Stores</a>
+                                    </li>
+                                    <li>
+                                        <a href="#">- Sign Up</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-sm-8 mt-5">
+                            <div class="footer-part">
+                                <h3>Newsletter</h3>
+                                <form>
+                                    <input type="email" placeholder="Enter Your Email">
+                                    <button type="submit">Submit</button>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-12">
+                            <p>CopyRight&copy; by <a href="#">Yumpee</a></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+    <!--FOOTER END-->
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src='js/main.js'></script>
+</body>
+</html>
